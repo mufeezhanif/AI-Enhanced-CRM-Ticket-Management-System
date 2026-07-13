@@ -10,6 +10,12 @@
 
 Full-stack mini-Zendesk CRM with JWT authentication, customer and ticket management, Groq-powered AI categorization and sentiment analysis, and Gmail/Telegram notifications.
 
+**Live demo:** https://crm-ticket-frontend.vercel.app · API: https://crm-backend-1r6i.onrender.com
+
+Login: `admin@crm.com` / `admin123` (manager) or `sarah@crm.com` / `agent123` (agent)
+
+> Backend is on Render's free plan — it spins down after inactivity, so the first request after a while can take ~30–60s to wake up. AI categorization (Groq), Gmail, and Telegram notifications are not configured on this deployment, so those specific features are inactive; everything else (auth, tickets, customers, dashboard) is fully live.
+
 ## Tech Stack
 
 - **Backend:** FastAPI (Python), PostgreSQL, SQLAlchemy
